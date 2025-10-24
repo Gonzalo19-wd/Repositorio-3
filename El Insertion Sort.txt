@@ -1,0 +1,14 @@
+El Insertion Sort ordena comparando cada elemento con los anteriores y moviéndolo si es menor.
+El problema es que si el arreglo está muy desordenado, hace muchos movimientos.
+
+El ShellSort mejora esto al comparar y ordenar elementos que están separados por una cierta distancia (gap), reduciendo el desorden de forma progresiva hasta llegar al orden total.
+
+Pasos del algoritmo
+
+Elegir un “gap” (salto o intervalo) inicial, normalmente la mitad del tamaño del arreglo.
+
+Comparar y ordenar los elementos que estén separados por ese “gap”.
+
+Reducir el gap (por ejemplo, a la mitad) y repetir el proceso.
+
+Cuando el gap llega a 1, el algoritmo se comporta como un Insertion Sort final, pero el arreglo ya estará casi ordenado, por lo que será muy rápido.
