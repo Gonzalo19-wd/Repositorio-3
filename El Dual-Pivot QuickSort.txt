@@ -1,3 +1,10 @@
-El **Dual-Pivot QuickSort** es una versión mejorada del algoritmo QuickSort tradicional que utiliza **dos pivotes** en lugar de uno para dividir el arreglo en **tres partes**: los elementos **menores que el primer pivote**, los **intermedios** entre ambos pivotes y los **mayores que el segundo pivote**. Este enfoque permite reducir el número de comparaciones y movimientos, logrando un rendimiento más estable y eficiente en la práctica.
+El **Dual-Pivot QuickSort** es una versión mejorada del algoritmo QuickSort tradicional que utiliza **dos pivotes** 
+en lugar de uno para dividir el arreglo en **tres partes**: los elementos **menores que el primer pivote**, los **intermedios** 
+entre ambos pivotes y los **mayores que el segundo pivote**. Este enfoque permite reducir el número de comparaciones y 
+movimientos, logrando un rendimiento más estable y eficiente en la práctica.
 
-En Java, desde la versión **7**, este algoritmo se utiliza por defecto en el método `Arrays.sort()` para ordenar arreglos de tipos primitivos, ya que suele ser **más rápido** que el QuickSort clásico en la mayoría de los casos. Aunque mantiene la misma complejidad promedio **O(n log n)**, aprovecha mejor la memoria caché y realiza menos operaciones, lo que mejora la velocidad de ejecución sin aumentar el consumo de recursos.
+En Java, desde la versión **7**, este algoritmo se utiliza por defecto en el método `Arrays.sort()` para ordenar arreglos de 
+tipos primitivos, ya que suele ser **más rápido** que el QuickSort clásico en la mayoría de los casos. Aunque mantiene la misma
+complejidad promedio **O(n log n)**, aprovecha mejor la memoria caché y realiza menos operaciones, lo que mejora la velocidad 
+de ejecución sin aumentar el consumo de recursos.
+
