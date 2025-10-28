@@ -1,0 +1,21 @@
+Búsqueda Lineal
+- Método: Recorre cada elemento de la lista uno por uno desde el inicio hasta encontrar el objetivo o llegar al final.
+- Requisitos: No necesita que la lista esté ordenada.
+- Complejidad temporal: O(n), donde n es el número de elementos.
+- Ventajas:
+- Simple de implementar.
+- Funciona en cualquier tipo de lista (ordenada o no).
+- Desventajas:
+- Ineficiente en listas grandes.
+- Tiempo de búsqueda aumenta linealmente con el tamaño de la lista.
+
+Búsqueda Binaria
+- Método: Divide la lista ordenada en mitades sucesivas, comparando el elemento medio con el objetivo.
+- Requisitos: La lista debe estar ordenada previamente.
+- Complejidad temporal: O(log n), mucho más eficiente que la lineal en listas grandes.
+- Ventajas:
+- Muy rápida en listas grandes ordenadas.
+- Menor número de comparaciones.
+- Desventajas:
+- No funciona en listas desordenadas.
+- Requiere lógica adicional para mantener el orden si se insertan nuevos elementos.
