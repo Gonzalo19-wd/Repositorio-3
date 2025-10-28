@@ -1,0 +1,20 @@
+¿Qué hace sort() en Python?
+
+La función list.sort() (y la función global sorted()) usan internamente un algoritmo llamado Timsort, una mezcla entre MergeSort y InsertionSort, diseñado para ser muy eficiente en datos parcialmente ordenados.
+
+Complejidad promedio: O(n log n)
+
+Peor caso: O(n log n)
+
+Mejor caso: O(n) (si la lista ya está casi ordenada)
+
+Tipo de ordenamiento: Estable (mantiene el orden de elementos iguales).
+
+Ejemplo básico
+# Lista de números desordenados
+numeros = [8, 5, 3, 7, 6, 2, 4, 1]
+
+# Ordenar directamente
+numeros.sort()
+
+print("Lista ordenada:", numeros)
