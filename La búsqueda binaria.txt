@@ -1,0 +1,16 @@
+La búsqueda binaria es una estructura de búsqueda eficiente que permite encontrar un elemento dentro de una colección ordenada (por ejemplo, un arreglo o lista).
+En lugar de revisar todos los elementos uno por uno como la búsqueda lineal, divide el problema a la mitad en cada paso, reduciendo drásticamente el número de comparaciones.
+
+Concepto básico
+
+La búsqueda binaria se basa en el principio de divide y vencerás:
+
+Se compara el valor buscado con el elemento central del arreglo.
+
+Si es igual, ¡listo! ya lo encontramos.
+
+Si es menor, se repite el proceso en la mitad izquierda.
+
+Si es mayor, se repite en la mitad derecha.
+
+El proceso continúa hasta encontrar el valor o agotar las posiciones.
