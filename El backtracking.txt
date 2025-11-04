@@ -1,0 +1,15 @@
+El backtracking (o vuelta atrás) es una técnica de diseño de algoritmos que se usa para resolver problemas de búsqueda o decisión explorando todas las posibles soluciones, pero descartando rápidamente aquellas que no cumplen las condiciones del problema.
+
+En otras palabras, el backtracking intenta construir una solución paso a paso, y si en algún punto se da cuenta de que el camino elegido no lleva a una solución válida, retrocede (“da marcha atrás”) y prueba con otra opción.
+
+🔹 Idea general
+
+Intentas una opción posible (una decisión parcial).
+
+Compruebas si esa elección es válida:
+
+Si sí, sigues avanzando (recursivamente).
+
+Si no, retrocedes (backtrack) y pruebas otra posibilidad.
+
+Continúas hasta encontrar una solución completa o agotar las opciones.
