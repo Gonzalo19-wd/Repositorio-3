@@ -1,0 +1,14 @@
+La recursividad en algoritmos es una técnica de programación en la que una función o procedimiento se llama a sí mismo para resolver un problema más grande dividiéndolo en subproblemas más pequeños y similares al original.
+
+En otras palabras, un algoritmo recursivo se repite a sí mismo con entradas más simples hasta llegar a un caso base, que es la condición que detiene la recursión.
+
+Estructura básica de un algoritmo recursivo
+
+Un algoritmo recursivo siempre tiene dos partes:
+
+Caso base (condición de parada):
+Es la situación más simple del problema, donde ya no se necesita seguir llamando a la función.
+Sin caso base, la recursión sería infinita.
+
+Llamada recursiva:
+Es donde la función se llama a sí misma con una versión más pequeña o más simple del problema.
