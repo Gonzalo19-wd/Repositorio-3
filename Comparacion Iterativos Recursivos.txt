@@ -1,0 +1,29 @@
+🔁 Algoritmos Iterativos
+Usan estructuras como bucles (for, while) para repetir instrucciones.
+
+✅ Ventajas
+Mayor eficiencia: Consumen menos memoria porque no requieren pila de llamadas.
+
+Más rápidos: Evitan el coste de múltiples llamadas a funciones.
+
+Fáciles de depurar: El flujo de ejecución es más lineal y predecible.
+
+❌ Desventajas
+Menor legibilidad en problemas complejos como árboles o grafos.
+
+Más código: A veces requieren estructuras auxiliares (pilas, colas) para simular recursión.
+
+🔄 Algoritmos Recursivos
+Una función se llama a sí misma para resolver subproblemas.
+
+✅ Ventajas
+Código más limpio y conciso: Ideal para problemas naturalmente recursivos (como factorial, Fibonacci, recorrido de árboles).
+
+Más intuitivo: Refleja directamente la definición matemática del problema.
+
+❌ Desventajas
+Mayor uso de memoria: Cada llamada se guarda en la pila, lo que puede causar desbordamiento.
+
+Menor rendimiento: Las llamadas repetidas pueden ser costosas si no se optimiza (por ejemplo, sin memoización).
+
+Difícil de depurar: El seguimiento de múltiples llamadas puede ser complejo.
