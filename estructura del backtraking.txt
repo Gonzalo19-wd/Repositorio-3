@@ -1,0 +1,15 @@
+//estructura del backtraking
+void backtrack(Solucion parcial) {
+    if (esSolucionCompleta(parcial)) {
+        mostrar(parcial);
+        return;
+    }
+
+    for (Opcion opcion : opcionesPosibles(parcial)) {
+        if (esValida(parcial, opcion)) {
+            agregar(parcial, opcion);
+            backtrack(parcial);    // Llamada recursiva
+            quitar(parcial, opcion); // Deshacer (vuelta atrás)
+        }
+    }
+}
