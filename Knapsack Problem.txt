@@ -1,0 +1,17 @@
+El Knapsack Problem (en español, problema de la mochila) es uno de los problemas clásicos de optimización combinatoria en algoritmos y estructuras de datos.
+Aparece mucho en temas como backtracking, programación dinámica y algoritmos voraces (greedy).
+
+🎒 ¿Qué plantea el Knapsack Problem?
+
+Imagina que tienes una mochila con una capacidad máxima de peso,
+y una serie de objetos, cada uno con:
+
+un peso (wᵢ)
+
+un valor (vᵢ)
+
+El objetivo es elegir qué objetos poner en la mochila de forma que:
+
+no excedas la capacidad máxima de peso, y
+
+maximices el valor total de los objetos elegidos.
