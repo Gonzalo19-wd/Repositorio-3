@@ -9,9 +9,10 @@ y una serie de objetos, cada uno con:
 un peso (wᵢ)
 
 un valor (vᵢ)
-
+//para ambos son 1 variable//
 El objetivo es elegir qué objetos poner en la mochila de forma que:
 
 no excedas la capacidad máxima de peso, y
+
 
 maximices el valor total de los objetos elegidos.
