@@ -1,0 +1,29 @@
+package libre
+public class Knapsack {
+
+    static int knapSack(int W, int[] peso, int[] valor, int n) {
+        // Caso base
+        if (n == 0 || W == 0)
+            return 0;
+
+        // Si el peso del objeto actual es mayor que la capacidad restante
+        if (peso[n - 1] > W)
+            return knapSack(W, peso, valor, n - 1);
+
+        // Si no, decidir si incluirlo o no
+        else
+            return Math.max(
+                valor[n - 1] + knapSack(W - peso[n - 1], peso, valor, n - 1),
+                knapSack(W, peso, valor, n - 1)
+            );
+    }
+
+    public static void main(String[] args) {
+        int[] valor = {3, 4, 5};
+        int[] peso = {2, 3, 4};
+        int capacidad = 5;
+        int n = valor.length;
+
+        System.out.println("Valor máximo: " + knapSack(capacidad, peso, valor, n));
+    }
+}
